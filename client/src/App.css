@@ -1,0 +1,37 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2em;
+}
+
+.app_form{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.app_form_input{
+    border: none;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.app_form button{
+    cursor: pointer;
+    border: none;
+    width: 15%;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 1em;
+    background-color: rgb(232, 215, 215);
+    font-family: sans-serif;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.app_previewimg{
+    width: 50%;
+    height: auto;
+}
